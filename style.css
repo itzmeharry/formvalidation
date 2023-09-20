@@ -1,0 +1,65 @@
+body{
+
+    /* page ha reset pandradhuku */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+    background: linear-gradient(blue,rgb(241, 130, 130));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form{
+      width: 400px;
+      margin: 20vh auto;
+      background-color: whitesmoke;
+      border-radius: 5px;
+      padding: 30px;
+}
+h2{
+    text-align: center;
+    color: purple;
+}
+#form button{
+    background-color:purple;
+    color: white;
+    border: 1px solid purple;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.error input{
+    border-color: red;
+}
+
+.input-group.success input{
+    border-color: green;
+}
